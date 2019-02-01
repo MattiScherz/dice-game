@@ -1,0 +1,37 @@
+body {
+  font-family: 'Arnhem', 'Georgia', serif;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.dice-game {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.dice-message {
+  line-height: 3em;
+}
+
+img {
+  width: 80%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #333;
+  border-radius: 1em;
+  margin: 20px 0;
+}
+
+.btn {
+  font-size: .5em;
+  border-radius: .25em;
+  padding: 0.5em;
+  background-color: blue;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+}
