@@ -4,7 +4,7 @@
 let diceMessage = document.getElementById(`dice-message`);
 let diceFace = document.getElementById(`dice-face`);
 
-function = rollTheDice() {
+function rollTheDice() {
   let diceValue = Math.floor(Math.random() * 6 + 1);
 
   diceMessage.innerHTML = `You rolled: ${diceValue}`;
